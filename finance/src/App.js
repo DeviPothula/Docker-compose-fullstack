@@ -13,7 +13,7 @@ function App() {
     //In real time we will use env's but this is for testing
     // Example: http://34.228.32.207:5000/api/users
     axios
-      .get("http://localhost:5000/api/users")
+      .get("/api/users")
       .then((response) => {
         console.log('response,.,', response)
         setUsers(response.data); // Update state with fetched users
