@@ -4,7 +4,7 @@ services:
     build:
       context: ./Backend
     environment:
-      - DB_URL=postgres://postgres:postgres@db:5432/yourdbname
+      - DB_URL=postgres://postgres:Devi123@db:5432/my_finance
     depends_on:
       - db
 
